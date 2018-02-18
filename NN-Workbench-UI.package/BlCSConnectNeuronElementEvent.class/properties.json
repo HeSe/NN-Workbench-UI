@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BlEvent",
+	"category" : "NN-Workbench-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"neuronelement"
+	],
+	"name" : "BlCSConnectNeuronElementEvent",
+	"type" : "normal"
+}

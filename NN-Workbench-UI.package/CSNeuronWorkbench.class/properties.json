@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "NN-Workbench-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"container",
+		"nnetwork"
+	],
+	"name" : "CSNeuronWorkbench",
+	"type" : "normal"
+}

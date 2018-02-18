@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BlEvent",
+	"category" : "NN-Workbench-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BlCSRemoveNeuronElementEvent",
+	"type" : "normal"
+}

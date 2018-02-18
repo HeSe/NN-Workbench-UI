@@ -1,0 +1,3 @@
+initialization
+backgroundPaint
+	^ Color veryDarkGray

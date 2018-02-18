@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "NN-Workbench-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"container",
+		"labelText",
+		"nnlayer"
+	],
+	"name" : "BlCSNeuronListElement",
+	"type" : "normal"
+}

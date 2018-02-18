@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BlCSButtonElement",
+	"category" : "NN-Workbench-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BlCSRemoveButtonElement",
+	"type" : "normal"
+}
