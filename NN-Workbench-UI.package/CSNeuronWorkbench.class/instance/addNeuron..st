@@ -1,7 +1,5 @@
 initialization
 addNeuron: aNeuron
-
-	aNeuron
 	
 	container children do:[:each | 
 		each neuronElements do: [:element| |line|
