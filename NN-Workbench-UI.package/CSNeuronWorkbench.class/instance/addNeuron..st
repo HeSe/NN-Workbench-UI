@@ -1,24 +1,23 @@
 initialization
-addNeuron: aTarget
+addNeuron: aNeuron
 
-	| neuron |
-	neuron := aTarget addNeuron: NNNeuron new.
+	aNeuron
 	
 	container children do:[:each | 
 		each neuronElements do: [:element| |line|
 	
-	neuron layer = (element layer - 1) 
+	aNeuron layer = (element layer - 1) 
 		ifTrue:[ line := self connectorLine.
-					line fromAnchor: (BlElementCenterAnchor element: neuron attachOut).
+					line fromAnchor: (BlElementCenterAnchor element: aNeuron attachOut).
 					line toAnchor: (BlElementCenterAnchor element: element attachIn).
 					self addChild: line].
-	element layer = (neuron layer - 1)
+	element layer = (aNeuron layer - 1)
 		ifTrue:[ line := self connectorLine.
 					line fromAnchor: (BlElementCenterAnchor element: element attachOut).
-					line toAnchor: (BlElementCenterAnchor element: neuron attachIn).
+					line toAnchor: (BlElementCenterAnchor element: aNeuron attachIn).
 					self addChild: line].
 	line notNil
-		ifTrue:[(neuron userData at: #lines) add: line.
+		ifTrue:[(aNeuron userData at: #lines) add: line.
 				  (element userData at: #lines) add: line]
 	]].
 
